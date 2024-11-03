@@ -41,8 +41,7 @@ def update_ngrok_url(new_url):
 def switch_ngrok_file():
     global current_file
     if current_file == "rolexvipcheatadmin1.txt":
-        current_file = "
-        "
+        
     else:
         current_file = "rolexvipcheatadmin1.txt"
     logging.info(f"Switched to {current_file}")
