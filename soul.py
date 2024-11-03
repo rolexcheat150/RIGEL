@@ -10,7 +10,6 @@ import certifi
 import asyncio
 from telebot.types import ReplyKeyboardMarkup, KeyboardButton
 from threading import Thread
-loop = asyncio.get_event_loop()
 
 bot = telebot.TeleBot('7816588757:AAG3A9dspCnfrzdUNx-RYFAgtn17Pe2jJcw')
 
