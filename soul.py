@@ -11,7 +11,7 @@ import asyncio
 from telebot.types import ReplyKeyboardMarkup, KeyboardButton
 from threading import Thread
 loop = asyncio.get_event_loop()
-TOKEN = '7816588757:AAG3A9dspCnfrzdUNx-RYFAgtn17Pe2jJcw
+TOKEN = '7816588757:AAG3A9dspCnfrzdUNx-RYFAgtn17Pe2jJcw'
 FORWARD_CHANNEL_ID = -
 CHANNEL_ID = -
 error_channel_id = -
