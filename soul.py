@@ -62,12 +62,6 @@ def handle_message(message):
     else:
         bot.reply_to(message, "*Invalid option*", parse_mode='Markdown')
 
-if __name__ == "__main__":
-    asyncio_thread = Thread(target=start_asyncio_thread, daemon=True)
-    asyncio_thread.start()
-    logging.info("Starting Codespace activity keeper and Telegram bot...")
-    while True:
-        try:
             bot.polling(none_stop=True)
         except Exception as e:
             logging.error(f"An error occurred while polling: {e}")
